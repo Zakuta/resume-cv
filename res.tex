@@ -1,0 +1,185 @@
+ % LaTeX file for resume 
+% This file uses the resume document class (res.cls)
+
+\documentclass{res} 
+\usepackage{hyperref}
+% \usepackage[sfdefault]{roboto}
+\usepackage[semibold]{raleway}
+% \usepackage[T1]{fontenc}
+% \usepackage{fourier}
+% \usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font 
+\newsectionwidth{0pt}  % So the text is not indented under section headings
+\usepackage{fancyhdr}  % use this package to get a 2 line header
+\renewcommand{\headrulewidth}{0pt} % suppress line drawn by default by fancyhdr
+\setlength{\headheight}{24pt} % allow room for 2-line header
+\setlength{\headsep}{24pt}  % space between header and text
+\setlength{\headheight}{24pt} % allow room for 2-line header
+\pagestyle{fancy}     % set pagestyle for document
+\rhead{ {\it Yash Jagdishbhai Patel}\\{\it p. \thepage} } % put text in header (right side)
+\cfoot{}                                     % the foot is empty
+\topmargin=-0.5in % start text higher on the page
+
+\begin{document}
+\thispagestyle{empty} % this page has no header  
+\name{Yash Jagdishbhai Patel\\[12pt]}% the \\[12pt] adds a blank line after name
+
+% \address{{\bf Current Address} \\ Kellergasse 11 \\
+%  \\ 53859, Niederkassel, NRW, Germany 
+% \address{yashptl1692@gmail.com}
+% % \address{Github LinkedIn }
+% \address{}
+
+
+
+\begin{resume}
+
+\section{\centerline{PERSONAL DETAILS}} 
+\vspace{8pt} 
+
+\begin{minipage}[ht]{0.67\textwidth}
+{\sl Date of Birth :} February $6^{th}$, 1994 \\
+{\sl Nationality :} Indian \\
+{\sl Email :} \href{mailto:yashptl1692@gmail.com}{yashptl1692@gmail.com}
+\end{minipage}
+\begin{minipage}[ht]{0.67\textwidth}
+{\sl Current Address} \\ Kellergasse 11, \\ 53859 Niederkassel, \\ North-Rhine-Westphalia, Germany 
+\end{minipage}
+
+
+\section{\centerline{EDUCATION}} 
+\vspace{8pt} 
+{\sl Master of Science}, Computer Science \hfill GPA 1.52/5.00\\
+\href{https://www.uni-bonn.de/the-university}{Rheinische Friedrich-Wilhelms-Universit{\"a}t Bonn}, Germany \hfill 10/16 - 12/18 \\
+{\sl Thesis:} \href{https://drive.google.com/file/d/1C03uBSUOQfGwhoRcaqIpzpgMSDjAWbHg/view?usp=sharing}{Integrality Gap Instances and Combinatorial Structure of Gilmore-Gomory LP for Bin Packing} \\
+{\sl Advisors:} \href{http://www.roeglin.org/}{\sl Dr. Heiko R{\"o}glin}, \href{http://www.i1.informatik.uni-bonn.de/doku.php?id=en:staff:rolfklein}{\sl Dr. Rolf Klein}
+ 
+{\sl Bachelor of Technology}, Information and Communication Technology \hfill  GPA 7.14/10.00 \\ 
+\href{https://www.daiict.ac.in/}{Dhirubhai Ambani Institute (DA-IICT)}, Gujarat, India      \hfill  07/12 - 05/16 \\
+{\sl Thesis:} \href{https://drive.google.com/file/d/0B0UlMAxZvhc3aFFjUjZNZ3Zxb2M/view?usp=sharing}{Elementary $k$ Shortest Path Problem: Improved Implementation} \\
+{\sl Advisor:} \href{https://www.daiict.ac.in/profile/rahul-muthu/}{\sl Dr. Rahul Muthu}
+
+\section{\centerline{RESEARCH INTERESTS}}
+\vspace{8pt} % provide vertical space between section title and contents
+Approximation Algorithms, Combinatorial Optimization, Convex Optimization (in particular Semidefinite Programming (SDP), SDP and Sum of Squares (SOS) hierarchies), eHealth.
+
+% \vspace{0.2in}
+\section{\centerline{SKILLS}}
+\vspace{8pt} % provide vertical space between section title and contents
+Python, C++, MATLAB, Gurobi, CPLEX, scikit-learn, Tensorflow.
+  
+% \vspace{0.2in} 
+\section{\centerline{PROFESSIONAL EXPERIENCE /INTERNSHIPS}} 
+\vspace{8pt}
+{\sl Junior Researcher, \href{https://cankado.com/gb/}{CANKADO GmbH}, Cologne, Germany} \hfill 06/18 - Present \\
+{\sl Guide: \href{https://www.researchgate.net/profile/Timo_Schinkoethe}{Dr. Timo Schink{\"o}the}, \href{https://de.linkedin.com/in/baijurahman}{Baiju Rahman} (CANKADO Research)}
+% General Products Division, Tucson, AZ       \hfill   (Co-op Assignment)
+   \begin{itemize} \itemsep -2pt % reduce space between items
+   \item Developed a wavelet-based delineation system for one-lead electrocardiogram (ECG) 
+%   recorded from AliveCor Kardia device 
+   to identify Long QT syndrome. Empirically tuned a machine learning model to remove noisy cardiac cycles to achieve the utility of better accuracy and speed-up for the clinical drug trial of around 2000 patients.
+%   , as one of the side effects are QT prolongation. 
+   \item Developed a handwriting tracking framework to diagnose neurodegenerative disorder by solving the problem of image registration, leveraging geometric divergences such as Optimal Transport distance and Sinkhorn divergences to compare the probability distributions. 
+  \item Currently working on predicting atrial fibrillation (AFib) and blood pressure level types
+%   and non-invasive hemoglobin measurement 
+  using the Photoplethysmogram (PPG) signal extracted by placing index finger covering the smartphone camera.
+ \end{itemize}
+
+{\sl Student Researcher, DA-IICT, Gujarat, India}            \hfill 05/15-08/15 \\
+{\sl Guide: \href{https://www.daiict.ac.in/profile/rahul-muthu/}{Dr. Rahul Muthu} (DA-IICT)} \\
+Defined a novel class of auxiliary graphs--spanning tree auxiliary graphs (STAG), based on the set of spanning trees of simple graphs, provide mathematical characterization and derive its structural properties.
+
+{\sl Volunteer, Rural Internship at \href{https://barodadairy.in/}{Baroda Milk Union}, Gujarat, India}      \hfill 12/13-01/14\\
+{\sl Guide: Dr. B. N. Hiremath (DA-IICT)} \\
+Designed a program for villagers and studied the impact of ICT on dairy industry to achieve  renumerative returns to the mild producers and serve the interests of consumers by providing quality milk products.
+
+\newpage
+\vspace{0.2in} 
+\section{\centerline{NOTABLE PROJECTS}}
+\vspace{8pt} 
+Bin Packing Problem Generator and Solver \hfill 05/18-09/18 \\
+{\sl Guide: }\href{http://www.roeglin.org/}{\sl Dr. Heiko R{\"o}glin (Universit{\"a}t Bonn) \hfill Team Size - 1}  \\
+Implemented an instance generator to generate random and discrepancy theory based bin packing instances (\href{https://dl.acm.org/citation.cfm?id=2417500.2417884}{Newman et. al, 2012}) and a solver based on Gilmore-Gomory LP using \emph{Gurobi} for the purpose of evaluating integrality gaps of bin packing instances.
+
+Image Synthesis: Unsupervised representation learning with DCGAN's \hfill 11/17-02/18 \\
+{\sl Guide: \href{https://angelayao.com/}{Dr. Angela Yao (Universit{\"a}t Bonn)} \hfill Team Size - 2} \\
+Implemented a deep convolutional generative adversarial network (\href{https://arxiv.org/abs/1511.06434}{Radford et al., 2015}) using PyTorch and generated images by training the generator on the Imagenet-1k dataset.
+
+Dijkstra-Steiner Algorithm for 3D rectilinear grids \hfill 04/17-06/17 \\
+{\sl Guide: \href{http://www.or.uni-bonn.de/~held/}{Dr. Stephen Held} (Universit{\"a}t Bonn) \hfill Team Size - 2}   \\
+Implemented a novel exact algorithm introduced by \href{https://arxiv.org/abs/1406.0492}{Hougardy et al., 2014} that achieves significantly better practical speed-up by employing pruning strategies and future costs for 3D Hanan grids.
+
+Acyclic Edge Coloring of Graphs \hfill 08/15-12/15 \\
+{\sl Guide: \href{https://www.daiict.ac.in/profile/rahul-muthu/}{\sl Dr. Rahul Muthu (DA-IICT)}  \hfill Team Size - 2} \\
+Derived algorithms for optimal acyclic edge coloring of odd graphs and special cases of bipartite graphs by studying their structural properties. 
+
+% \vspace{0.2in} 
+% \section{\centerline{PUBLICATIONS}} 
+% \vspace{15pt}
+% \begin{itemize}
+%   \item "Job Analysis - A True Picture," Journal of Headhunters, Vol. 
+%     5, Number 3. Fall 1990 
+%   \item "The   Fine  Tuning  of  Interpersonal  Skills,"  Journal  of 
+%     Recruiting/Hiring, Vol. 16, Number 7, August 1990 
+%   \end{itemize}
+
+
+% \vspace{0.2in} 
+\section{\centerline{LEADERSHIP /SERVICE}} 
+\vspace{8pt}
+{\sl Member, Sports Committee, DA-IICT} \hfill 07/14-05/16 \\
+Secured grant from the university funds, allocated it to different university teams and managed the inventory of sport goods.  
+
+{\sl Member of Google Developers Group Student Chapter, DA-IICT} \hfill 09/12-04/14
+% \vspace{-5pt}
+\begin{itemize} \itemsep -2pt
+    \item Organized local tech events and hands-on sessions in collaboration with software industry professionals.
+    \item Organized one of the largest open source conference \href{https://dot.kde.org/2014/03/10/confkdein-2014-knowledge-power-freedom}{conf.kde.in (2014)} in India.
+\end{itemize}
+
+{\sl Cricket} \hfill    09/09-Present
+% \vspace{-5pt}
+\begin{itemize} \itemsep -2pt
+    \item Represented the state cricket team of North-Rhine-Westphalia (Western Eagles), Germany and Gujarat, India (Under-16 category).
+    \item Captained the university cricket team of DA-IICT from 2014-16 and competitively played cricket against universities in Gujarat.
+\end{itemize}
+% Represented the state cricket team of Gujarat in the Under-16 age category.
+% One of the founding member of Google Developers Group Chapter, DA-IICT. \\
+% Organized conf.kde.in (2014), one of the largest open source conferences in India. \\
+% Captain of DA-IICT Cricket team and led the team to win the annual sports meet, Concours ‘15.
+
+\section{\centerline{RELEVANT COURSEWORK}} 
+\vspace{8pt} % reduce space between section title and contents
+      Combinatorial Optimization, Advanced Algorithms, Discrete and Computational Geometry, Approximation Algorithms, Parameterized Complexity, Fine-Grained Analysis of Algorithms, Randomized Algorithms and Probabilistic Analysis, Advanced Approximation Algorithms on TSP\footnote{Audit Course}, Deep Learning for Visual Recognition, Probabilistic Graphical Models, Discrete Mathematics, Algebraic Structures, Probability and Statistics, Systems Software, Introduction to Algorithms, Quantum Mechanics, Quantum Computation, Formal Specification and Verification, Stochastic Simulation.
+      
+% \vspace{0.2in}
+% \section{\centerline{HOBBIES}} 
+% \vspace{-5pt} 
+% \begin{center}
+% Classical piano, Jazz,  bodybuilding/aerobic  exercise,  cooking, 
+%                              dancing
+% \end{center} 
+\newpage
+
+\section{\centerline{REFERENCES}} 
+\vspace{8pt} % reduce space between section title and contents
+% \address{Professor Heiko R{\"o}glin \\ Department of Theoretical Computer Science \\ Universit{\"a}t Bonn \\ Endenicher Allee 19a \\ 53115 Bonn, Germany \\ roeglin@cs.uni-bonn.de}
+
+\begin{minipage}[ht]{0.48\textwidth}
+{\sl Professor Heiko R{\"o}glin} \\ Department of Theoretical Computer Science \\ Universit{\"a}t Bonn \\ Endenicher Allee 19a \\ 53115 Bonn, Germany \\ \href{mailto:roeglin@cs.uni-bonn.de}{roeglin@cs.uni-bonn.de}
+\end{minipage}
+\begin{minipage}[ht]{0.48\textwidth}
+{\sl Professor Timo Schink{\"o}the (Head)} \\ Clinical eHealth Research Group \\ Universit{\"a}t M{\"u}nchen (LMU) \\ Am Strassland 6 \\ 85551 Kirchheim b.M., Germany \\ \href{mailto:t.schinkoethe@cankado.com}{t.schinkoethe@cankado.com}
+\end{minipage}
+
+\vspace{5pt}
+\begin{minipage}[ht]{0.48\textwidth}
+{\sl Assistant Professor Rahul Muthu} \\
+Department of Theoretical Computer Science \\
+DA-IICT \\
+Gandhinagar 382007, Gujarat, India \\
+\href{mailto:rahul\_muthu@daiict.ac.in}{rahul\_muthu@daiict.ac.in}
+
+\end{minipage} 
+\end{resume} 
+\end{document}
