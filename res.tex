@@ -19,6 +19,7 @@
 \rhead{ {\it Yash Jagdishbhai Patel}\\{\it p. \thepage} } % put text in header (right side)
 \cfoot{}                                     % the foot is empty
 \topmargin=-0.5in % start text higher on the page
+\usepackage{fontawesome}
 
 \begin{document}
 \thispagestyle{empty} % this page has no header  
@@ -40,7 +41,8 @@
 \begin{minipage}[ht]{0.67\textwidth}
 {\sl Date of Birth :} February $6^{th}$, 1994 \\
 {\sl Nationality :} Indian \\
-{\sl Email :} \href{mailto:yashptl1692@gmail.com}{yashptl1692@gmail.com}
+{\sl Email :} \href{mailto:yashptl1692@gmail.com}{yashptl1692@gmail.com}, \href{mailto:yashptl1@outlook.com}{yashptl1@outlook.com} \\
+{\sl \href{https://github.com/Zakuta}{\faGithub}}
 \end{minipage}
 \begin{minipage}[ht]{0.67\textwidth}
 {\sl Current Address} \\ Kellergasse 11, \\ 53859 Niederkassel, \\ North-Rhine-Westphalia, Germany 
@@ -50,8 +52,8 @@
 \section{\centerline{EDUCATION}} 
 \vspace{8pt} 
 {\sl Master of Science}, Computer Science \hfill GPA 1.52/5.00\\
-\href{https://www.uni-bonn.de/the-university}{Rheinische Friedrich-Wilhelms-Universit{\"a}t Bonn}, Germany \hfill 10/16 - 12/18 \\
-{\sl Thesis:} \href{https://drive.google.com/file/d/1C03uBSUOQfGwhoRcaqIpzpgMSDjAWbHg/view?usp=sharing}{Integrality Gap Instances and Combinatorial Structure of Gilmore-Gomory LP for Bin Packing} \\
+\href{https://www.uni-bonn.de/the-university}{Rheinische Friedrich-Wilhelms-Universit{\"a}t Bonn}, Germany \hfill 10/16 - 01/19 \\
+{\sl Thesis:} \href{https://github.com/Zakuta/master-thesis-tex/blob/master/yash_patel_dec_10_2018_thesis.pdf}{Integrality Gap Instances and Combinatorial Structure of Gilmore-Gomory LP for Bin Packing} \\
 {\sl Advisors:} \href{http://www.roeglin.org/}{\sl Dr. Heiko R{\"o}glin}, \href{http://www.i1.informatik.uni-bonn.de/doku.php?id=en:staff:rolfklein}{\sl Dr. Rolf Klein}
  
 {\sl Bachelor of Technology}, Information and Communication Technology \hfill  GPA 7.14/10.00 \\ 
@@ -61,7 +63,7 @@
 
 \section{\centerline{RESEARCH INTERESTS}}
 \vspace{8pt} % provide vertical space between section title and contents
-Approximation Algorithms, Combinatorial Optimization, Convex Optimization (in particular Semidefinite Programming (SDP), SDP and Sum of Squares (SOS) hierarchies), eHealth.
+Approximation Algorithms, Combinatorial Optimization, Convex Optimization (in particular Semidefinite Programming (SDP), SDP and Sum of Squares hierarchies), eHealth.
 
 % \vspace{0.2in}
 \section{\centerline{SKILLS}}
@@ -80,8 +82,9 @@ Python, C++, MATLAB, Gurobi, CPLEX, scikit-learn, Tensorflow.
    to identify Long QT syndrome. Empirically tuned a machine learning model to remove noisy cardiac cycles to achieve the utility of better accuracy and speed-up for the clinical drug trial of around 2000 patients.
 %   , as one of the side effects are QT prolongation. 
    \item Developed a handwriting tracking framework to diagnose neurodegenerative disorder by solving the problem of image registration, leveraging geometric divergences such as Optimal Transport distance and Sinkhorn divergences to compare the probability distributions. 
-  \item Currently working on predicting atrial fibrillation (AFib) and blood pressure level types
-%   and non-invasive hemoglobin measurement 
+  \item Currently working on predicting atrial fibrillation
+%   and blood pressure level types
+  and non-invasive hemoglobin measurement 
   using the Photoplethysmogram (PPG) signal extracted by placing index finger covering the smartphone camera.
  \end{itemize}
 
@@ -101,13 +104,13 @@ Bin Packing Problem Generator and Solver \hfill 05/18-09/18 \\
 {\sl Guide: }\href{http://www.roeglin.org/}{\sl Dr. Heiko R{\"o}glin (Universit{\"a}t Bonn) \hfill Team Size - 1}  \\
 Implemented an instance generator to generate random and discrepancy theory based bin packing instances (\href{https://dl.acm.org/citation.cfm?id=2417500.2417884}{Newman et. al, 2012}) and a solver based on Gilmore-Gomory LP using \emph{Gurobi} for the purpose of evaluating integrality gaps of bin packing instances.
 
-Image Synthesis: Unsupervised representation learning with DCGAN's \hfill 11/17-02/18 \\
+\href{https://github.com/Zakuta/deep-learning-course/tree/master/DCGAN-project}{Image Synthesis: Unsupervised representation learning with DCGAN's} \hfill 11/17-02/18 \\
 {\sl Guide: \href{https://angelayao.com/}{Dr. Angela Yao (Universit{\"a}t Bonn)} \hfill Team Size - 2} \\
 Implemented a deep convolutional generative adversarial network (\href{https://arxiv.org/abs/1511.06434}{Radford et al., 2015}) using PyTorch and generated images by training the generator on the Imagenet-1k dataset.
 
-Dijkstra-Steiner Algorithm for 3D rectilinear grids \hfill 04/17-06/17 \\
-{\sl Guide: \href{http://www.or.uni-bonn.de/~held/}{Dr. Stephen Held} (Universit{\"a}t Bonn) \hfill Team Size - 2}   \\
-Implemented a novel exact algorithm introduced by \href{https://arxiv.org/abs/1406.0492}{Hougardy et al., 2014} that achieves significantly better practical speed-up by employing pruning strategies and future costs for 3D Hanan grids.
+\href{https://github.com/Zakuta/dijkstra-steiner-algo}{Dijkstra-Steiner Algorithm for 3D rectilinear grids} \hfill 04/17-06/17 \\
+{\sl Guide: \href{http://www.or.uni-bonn.de/~held/}{Dr. Stephan Held} (Universit{\"a}t Bonn) \hfill Team Size - 2}   \\
+Implemented a novel dynamic programming algorithm introduced by \href{https://arxiv.org/abs/1406.0492}{Hougardy et al., 2014} that achieves significantly better practical speed-up by employing pruning strategies and future costs for 3D Hanan grids.
 
 Acyclic Edge Coloring of Graphs \hfill 08/15-12/15 \\
 {\sl Guide: \href{https://www.daiict.ac.in/profile/rahul-muthu/}{\sl Dr. Rahul Muthu (DA-IICT)}  \hfill Team Size - 2} \\
@@ -162,18 +165,18 @@ Secured grant from the university funds, allocated it to different university te
 \newpage
 
 \section{\centerline{REFERENCES}} 
-\vspace{8pt} % reduce space between section title and contents
+\vspace{12pt} % reduce space between section title and contents
 % \address{Professor Heiko R{\"o}glin \\ Department of Theoretical Computer Science \\ Universit{\"a}t Bonn \\ Endenicher Allee 19a \\ 53115 Bonn, Germany \\ roeglin@cs.uni-bonn.de}
 
-\begin{minipage}[ht]{0.48\textwidth}
+\begin{minipage}[ht]{0.67\textwidth}
 {\sl Professor Heiko R{\"o}glin} \\ Department of Theoretical Computer Science \\ Universit{\"a}t Bonn \\ Endenicher Allee 19a \\ 53115 Bonn, Germany \\ \href{mailto:roeglin@cs.uni-bonn.de}{roeglin@cs.uni-bonn.de}
 \end{minipage}
-\begin{minipage}[ht]{0.48\textwidth}
+\begin{minipage}[ht]{0.67\textwidth}
 {\sl Professor Timo Schink{\"o}the (Head)} \\ Clinical eHealth Research Group \\ Universit{\"a}t M{\"u}nchen (LMU) \\ Am Strassland 6 \\ 85551 Kirchheim b.M., Germany \\ \href{mailto:t.schinkoethe@cankado.com}{t.schinkoethe@cankado.com}
 \end{minipage}
 
 \vspace{5pt}
-\begin{minipage}[ht]{0.48\textwidth}
+\begin{minipage}[ht]{0.67\textwidth}
 {\sl Assistant Professor Rahul Muthu} \\
 Department of Theoretical Computer Science \\
 DA-IICT \\
